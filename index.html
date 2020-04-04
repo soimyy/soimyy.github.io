@@ -1,1 +1,131 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Title -->
+<div class="container-fluid">
+	<div class="row">
+		<h1 class="diplay-4 my-5">My portfolio</h1>
+	</div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-light sticky-top">
+	<ul class="nav ml-auto d-none d-sm-inline-flex">
+		<li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+		<li class="nav-item"><a href="#Works" class="nav-link">Works</a></li>
+		<li class="nav-item"><a href="#Skill" class="nav-link">Skill</a></li>
+		<li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+	</ul>
+</nav>
+
+<!--- Jumbotron -->
+<img src="img/background.png" alt="自画像">
+
+<!-- About 2Column -->
+<div class="container text-center my-5">
+	<h2 id="About">About</h2>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6">
+			<img src="img/background2.png" alt="プロフィール画像" class="img-fluid rounded-circle">
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<ul class="list-unstyled"> 
+				<li>name:</li>
+				<li>from:</li>
+				<li>background:</li>
+				<li>hobby:</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Works 3Column -->
+<div class="conrainer-fluid padding text-center">
+	<h2 id="Works">Works</h2>
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img src="img/team1.png" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Portfolio1</h4>
+					<p class="card-text">Build Bootstrap</p>
+					<a href="" class="btn btn-outline-secondary">See Site</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="img/team2.png" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Portfolio2</h4>
+					<p class="card-text">Build React.js</p>
+					<a href="" class="btn btn-outline-secondary">See Site</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="img/team3.png" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Reccome</h4>
+					<p class="card-text">SNS which using your infomation.</p>
+					<a href="" class="btn btn-outline-secondary">See Site</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Skill 3Column -->
+<div class="container-fluid text-center">
+	<h2 id="Skill">Skill</h2>
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-bold"></i>
+			<h3>Bootstrap</h3>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-react"></i>
+			<h3>React.js</h3>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<i class="fab fa-python"></i>
+			<h3>Python</h3>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+
+<!-- Scial -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Connect</h2>
+			</div>
+			<div class="col-12 social padding">
+				<a href=""><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+				<a href=""><i class="fab fa-google-plus-g"></i></a>
+				<a href=""><i class="fab fa-instagram"></i></a>
+				<a href=""><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
